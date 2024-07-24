@@ -7,6 +7,7 @@ public class Main {
         rettangolo.stampaRettangolo();
 
         Rettangolo rettangolo2 = new Rettangolo(25, 45);
+        rettangolo2.stampaRettangolo();
 
         Rettangolo.stampaDueRettangoli(rettangolo, rettangolo2);
     }

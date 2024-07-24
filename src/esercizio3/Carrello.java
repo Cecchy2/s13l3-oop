@@ -8,7 +8,7 @@ public class Carrello {
 
     public Carrello(Cliente cliente) {
         this.cliente = cliente;
-        this.articoli = new Articolo[3];
+        this.articoli = new Articolo[3]; // Limitiamo il carrello a 3 articoli per semplicità
         this.numeroArticoli = 0;
         this.costoTotale = 0;
     }
@@ -53,6 +53,3 @@ public class Carrello {
         System.out.println("Totale costo: " + costoTotale + " euro");
     }
 }
-
-
-

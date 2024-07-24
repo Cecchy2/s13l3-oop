@@ -6,8 +6,8 @@ public class Articolo {
     private int prezzo;
     private int numeroPezziDisponibili;
 
-    public Articolo(String codiceArticolo, String descrizioneArticolo, int prezzo, int numeroPezziDisponibili) {
-        this.codiceArticolo = Integer.parseInt(codiceArticolo);
+    public Articolo(int codiceArticolo, String descrizioneArticolo, int prezzo, int numeroPezziDisponibili) {
+        this.codiceArticolo = codiceArticolo;
         this.descrizioneArticolo = descrizioneArticolo;
         this.prezzo = prezzo;
         this.numeroPezziDisponibili = numeroPezziDisponibili;
